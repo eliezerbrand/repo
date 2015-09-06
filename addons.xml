@@ -16,36 +16,4 @@
     <description lang="en">Feeders from Ninbora</description>
   </extension>
 </addon>
-
-<addon id="Ninbora.Movies_Feeder" name="Ninbora.Movies_Feeder" version="1.2.1" provider-name="Ninbora">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="main.py" start="startup"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Feeder</summary>
-    <summary lang="he">Feeder</summary>
-    <website>https://www.github.com/ninbora</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="Ninbora.Series_Feeder" name="Ninbora.Series_Feeder" version="1.2.1" provider-name="Ninbora">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="main.py" start="startup"></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Feed</summary>
-    <summary lang="he">Feed</summary>
-    <website>https://www.github.com/ninbora</website>
-    <platform>all</platform>
-  </extension>
-</addon>
 </addons>
